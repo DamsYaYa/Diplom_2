@@ -10,7 +10,7 @@ import org.junit.Test;
 import static org.hamcrest.CoreMatchers.equalTo;
 import static org.hamcrest.CoreMatchers.is;
 
-public class UserUpdateTest {
+public class EditUserDataTest {
     private User user = new User();
     private final UserSteps client = new UserSteps();
     private final UserGenerator generator = new UserGenerator();

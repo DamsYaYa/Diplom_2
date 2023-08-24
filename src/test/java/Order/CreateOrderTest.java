@@ -13,7 +13,7 @@ import java.util.List;
 import static org.hamcrest.CoreMatchers.equalTo;
 import static org.hamcrest.core.Is.is;
 
-public class OrderCreationTest {
+public class CreateOrderTest {
     private User user = new User();
 
     private final UserSteps client = new UserSteps();
