@@ -1,6 +1,9 @@
 package Constant;
 
+
 public class Endpoints {
+    /* "Урлы для API" */
+
     public final static String BASE_URI = "https://stellarburgers.nomoreparties.site/";
     public final static String ORDERS_API = "/orders";
     public final static String INGREDIENTS_API = "/ingredients";

@@ -8,4 +8,5 @@ public class UserGenerator {
         return new User(RandomStringUtils.randomNumeric(5) + "@user.com", "qwerty123", "User");
 
     }
+
 }

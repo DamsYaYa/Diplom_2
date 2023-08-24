@@ -12,6 +12,7 @@ public class Credentials {
 
         this.email = email;
         this.password = password;
+
     }
 
     public static Credentials from(User user) {

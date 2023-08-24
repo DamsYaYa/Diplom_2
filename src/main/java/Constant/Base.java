@@ -11,12 +11,8 @@ public class Base {
     public static RequestSpecification spec() {
 
         return given().log().all()
-
                 .contentType(ContentType.JSON)
-
                 .baseUri(BASE_URI)
-
                 .basePath(API);
-
     }
 }

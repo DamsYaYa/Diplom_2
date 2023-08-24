@@ -21,6 +21,7 @@ public class UserSteps extends Base {
     }
 
 
+
     @Step("Авторизация пользователя")
 
     public ValidatableResponse loginUser(Credentials credentials) {
